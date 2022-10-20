@@ -5,16 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 
+
 
 </template>
 
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    // variables de vue
-  }),
+  components: {},
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
