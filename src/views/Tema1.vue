@@ -143,6 +143,10 @@
             .col.mb-3.mb-sm-0
               h5.text-white(data-aos="fade-up") ¡Importante!
               p.text-small.mb-0.mt-3(data-aos="fade-up") Estos, y otros aspectos, permitirán identificar patrones de comportamiento, sucesos o diferentes características de los conjuntos de datos a analizar, para mejorar la oferta, el servicio, recursos, procesos, experiencias en la biblioteca.
+            .col-sm-auto
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
 
 
