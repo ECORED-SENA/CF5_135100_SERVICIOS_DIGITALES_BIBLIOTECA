@@ -71,4 +71,10 @@ export default {
 .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img img
   z-index: 2
   position: relative
+.banner-interno__titulo__icono
+  background-color: #12263F
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #12263F
+.banner-interno__titulo__icono i
+  color: #fff
 </style>

@@ -17,47 +17,47 @@
     .cont_2_1.mt-5.p-md-5.pt-5.pb-5(style="position:relative;")
       h4(data-aos="fade-up") Algunos ejemplos de variables pueden ser:
       .row.mt-5.m-auto.justify-content-center
-        .col-lg-2.col-6.mb-5.mb-lg-0
+        .col-xl-2.col-6.mb-5.mb-xl-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/3.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
-            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;")
-              .p-4.pt-0
+            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
+              .p-4.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") La edad
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … de un grupo de personas
-        .col-lg-2.col-6.mb-5.mb-lg-0
+        .col-xl-2.col-6.mb-5.mb-xl-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/4.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
-            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;")
-              .p-4.pt-0
+            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
+              .p-4.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") La estatura
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … de los niños de un nivel de estudio
-        .col-lg-2.col-6.mb-5.mb-lg-0
+        .col-xl-2.col-6.mb-5.mb-xl-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/5.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
-            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;")
-              .p-4.pt-0
+            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
+              .p-4.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") El peso
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … o la altura de los edificios de una región
 
-        .col-lg-2.col-6.mb-5.mb-lg-0
+        .col-xl-2.col-6.mb-5.mb-xl-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/6.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
-            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;")
-              .p-4.pt-0
+            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
+              .p-4.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") El tipo
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … de enfermedades asociadas a las formas de alimentación
-        .col-lg-2.mb-5.mb-lg-0
+        .col-xl-2.mb-5.mb-xl-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/7.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
-            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;")
-              .p-4.pt-0
+            .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
+              .p-4.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") El nivel
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … de estudios de las personas en cargos públicos
 
 
     .tarjeta.color-primario.p-3.mt-5.cont_2_2.col-lg-10.m-auto
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-auto
           img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
         .col
           .row.justify-content-between.align-items-center
@@ -85,7 +85,7 @@
           img(src="@/assets/curso/tema2/8.png" data-aos="fade-left")
 
     .cont_2_3.mt-5.pt-5.pb-5(style="position:relative;")
-      .row.col-md-4(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative")
+      .row.col-lg-4(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative")
         .col-auto
           figure
             img(src="@/assets/curso/tema2/11.png" data-aos="fade-right")
@@ -151,7 +151,7 @@
                 | En una biblioteca, la ubicación de los libros (arriba, en el medio, abajo).
 
     .cont_2_4.mt-5.pt-5.pb-5(style="position:relative;")
-      .row.col-md-4(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative")
+      .row.col-lg-4(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative")
         .col-auto
           figure
             img(src="@/assets/curso/tema2/11.png" data-aos="fade-right")
@@ -194,7 +194,7 @@
       h4.mt-5(data-aos="fade-up" style="position:relative") Por otra parte, este tipo de variables cuantitativas se subdividen en:
 
       .row.col-lg-8.m-auto.mt-5
-        .col-lg-6.mb-4.mb-lg-0
+        .col-xl-6.mb-4.mb-xl-0
           .p-4(style="background-color:#FDB768;height:100%;border-radius:15px;")
             h5.text-center(data-aos="fade-up") Cuantitativas discretas
             p.mt-5(data-aos="fade-up") #[strong Por ejemplo:]
@@ -205,7 +205,7 @@
               li.mb-3(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
                 | El resultado siempre será un número entero, no podrá indicar valores decimales.
-        .col-lg-6.mb-4.mb-lg-0
+        .col-xl-6.mb-4.mb-xl-0
           .p-4(style="background-color:#785549;height:100%;border-radius:15px;")
             h5.text-center.text-white(data-aos="fade-up") Cuantitativas continuas
             p.mt-5.text-white(data-aos="fade-up") #[strong Por ejemplo:]
@@ -228,22 +228,22 @@
 
       h4.mt-5(data-aos="fade-up" style="position:relative") En relación con las variables cuantitativas en la gestión de bibliotecas se debe tener presente:
 
-      .row.col-lg-10.m-auto.mt-5
-        .col-lg-4.mb-4.mb-lg-0
+      .row.col-xl-10.m-auto.mt-5
+        .col-xl-4.mb-4.mb-xl-0
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="height:100%;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
                 img(src='@/assets/curso/tema2/16.png' data-aos="zoom-in-up")
             h5.text-center.text-center.text-white(data-aos="fade-up") Utilización apropiada de los datos
             p.text-center.text-center.text-white(data-aos="fade-up") Los directores, coordinadores y el personal del equipo de trabajadores que gestionan servicios bibliotecarios deben aprender a utilizar los datos, de diversa índole, que se generan por la prestación del servicio y operación.
-        .col-lg-4.mb-4.mb-lg-0
+        .col-xl-4.mb-4.mb-xl-0
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="height:100%;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
                 img(src='@/assets/curso/tema2/17.png' data-aos="zoom-in-up")
             h5.text-center.text-center.text-white(data-aos="fade-up") Interpretación y uso de la información
             p.text-center.text-center.text-white(data-aos="fade-up") Con tal experticia y teniendo a la estadística como recurso, se espera interpretar y usar la información agregada o resumida de algún tipo de variable o factor por analizar.
-        .col-lg-4.mb-4.mb-lg-0
+        .col-xl-4.mb-4.mb-xl-0
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="height:100%;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
@@ -287,7 +287,7 @@
 
     .tarjeta.color-primario.p-3.mt-5.cont_2_5.col-lg-10.m-auto
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-auto
           img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
         .col
           .row.justify-content-between.align-items-center

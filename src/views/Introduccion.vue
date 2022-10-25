@@ -10,7 +10,7 @@
 
     .tarjeta.color-primario.p-5.mb-5.cont_intro(style="background-color:transparent;")
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-2
+        .col-auto.d-none.d-md-block
           img(src="@/assets/curso/intro1.png" data-aos="fade-right")
         .col
           .row.justify-content-between.align-items-center

@@ -45,26 +45,28 @@
     h4.mt-5(data-aos="fade-up") En la biblioteca, la estadística tiene como objetivos principales:
 
     .row.mt-5.col-lg-8.m-auto
-      .col-lg-6.mb-5.mb-lg-0
+      .col-lg-6.mb-5.mb-lg-0.col-10.m-auto
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/5.png')})`}")
+              h5.text-center.mt-5(style="color:#12263F;") Medir y evaluar
             .tarjeta-flip__contenido.p-5.p-xl-5(style="background-color:#FDB768;")
               h5.text-center.mt-5(style="color:#12263F;") Medir y evaluar
               p.mt-5.mb-5(style="color:#12263F;") La calidad y la eficiencia en la prestación de los servicios bibliotecarios para, así, emprender acciones de mejora.
-      .col-lg-6.mb-5.mb-lg-0
+      .col-lg-6.mb-5.mb-lg-0.col-10.m-auto
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/6.png')})`}")
+              h5.text-center.mt-5 Difundir
             .tarjeta-flip__contenido.p-5.p-xl-5
               h5.text-center.mt-5 Difundir
               p.mt-5.mb-5 Ante la comunidad, el uso de los recursos bibliográficos, mes a mes, o en el periodo que estime pertinente.
 
     .tarjeta.color-primario.p-3.mt-5.cont_1_1.col-lg-10.m-auto
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-auto
           img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
         .col
           .row.justify-content-between.align-items-center
@@ -79,15 +81,15 @@
         .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
           SlyderA(tipo="b" style="background-color:#fff;border-radius:25px")
             .row.p-5
-              h4 Datos para el funcionamiento administrativo
+              h4(style="color:#FD9827;") Datos para el funcionamiento administrativo
               p Miden las ocupaciones del personal y sus actividades funcionales, con relación a los servicios y orientación a usuarios, así como para determinar costos de la biblioteca.
             .row.p-5
-              h4 Datos sobre aspectos técnicos o de operación bibliotecaria
+              h4(style="color:#FD9827;") Datos sobre aspectos técnicos o de operación bibliotecaria
               p Donde lo que se busca registrar se relaciona con los niveles de pedidos de libros digitales, solicitudes de consecución de materiales específicos, el proceso físico, el registro de materiales (revistas, libros digitales o físicos, artículos, material pictográfico, domicilios y demás propios del servicio).
             .row.p-5
-              h4 Datos públicos
+              h4(style="color:#FD9827;") Datos públicos
               p Aquellos que registran el acceso a las búsquedas, préstamos o suministros en sí, servicio on-line, uso de la colección, frecuencias, consultas, descargas de materiales, promoción de uso de bases de consulta, entre otros.
-        .col-lg-6(style="place-self:center;")
+        .col-lg-6.d-none.d-md-block(style="place-self:center;")
           figure
             img(src="@/assets/curso/tema1/9.png" data-aos="fade-left")
 
@@ -136,7 +138,7 @@
 
     .tarjeta.color-primario.p-3.mt-5.cont_1_1.col-lg-10.m-auto
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-auto
           img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
         .col
           .row.justify-content-between.align-items-center
@@ -181,6 +183,7 @@ export default {
   background-color: #FEDBB4
 .slyder-a__bullets__item--active
   background-color: #FD9827 !important
+  border: none
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #C0C942
   opacity: 1
@@ -194,4 +197,7 @@ export default {
   background: url(../assets/curso/tema1/11.png)
   background-size: cover
   background-repeat: no-repeat
+@media screen and (max-width: 1399px)
+  .cont_1_3:before
+    height: 100%
 </style>

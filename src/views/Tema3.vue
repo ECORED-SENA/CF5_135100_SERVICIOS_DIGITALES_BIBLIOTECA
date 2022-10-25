@@ -18,10 +18,10 @@
       h4.mt-5(data-aos="fade-up" style="position:relative") Los muestreos son importantes y necesarios dado que:
 
       .row.mt-5(style="position:relative")
-        .col-lg-5.mb-4.mb-lg-0(style="place-self:center")
+        .col-xl-5.mb-4.mb-xl-0(style="place-self:center")
           figure
             img(src="@/assets/curso/tema3/3.png" data-aos="fade-right")
-        .col-lg-6(style="place-self:center")
+        .col-xl-6(style="place-self:center")
           .p-5.bg-white(style="border-radius:10px;")
             ul.fa-ul
               li.mb-2(data-aos="fade-up")
@@ -37,7 +37,7 @@
                 i.fa.fa-li.fa-check(style="color:#FD9827;")
                 | Cuando se hace muestreo se busca que la selección de la muestra sea representación de cómo es la población total.
 
-      h4.mt-5(data-aos="fade-up" style="position:relative") Visualice con atención el vídeo que se muestra a continuación; identifique los tipos de muestreo y las técnicas de selección de datos estadísticos:
+      p.mt-5(data-aos="fade-up" style="position:relative;font-weight:bold;") Visualice con atención el vídeo que se muestra a continuación; identifique los tipos de muestreo y las técnicas de selección de datos estadísticos:
 
       figure.mt-5
         .video
@@ -52,8 +52,23 @@
             h5 Nivel de confianza
             p.mt-4 Es un parámetro definido por el investigador, con el que se determina qué tan preciso se quiere que sea el estudio. Los valores utilizados con mayor frecuencia obedecen a un factor estimado, presentado en la tabla.
           .col-lg-5
-            figure
-              img(src='@/assets/curso/tema3/4.svg')
+            .tabla-a.color-acento-botones
+              table(style="min-width:100%;")
+                thead(style="border:0;")
+                  tr
+                    th.p-3.text-center(style="border:0;background-color:#C0C942;") Nivel de confianza
+                    th.p-3.text-center(style="border:0;background-color:#EBC9B1;") Puntuación Estándar (Z)
+                tbody
+                  tr
+                    td.text-center.p-3(style="font-weight:bold;border:0;background-color:#D1D59A;") 90%
+                    td.text-center.p-3(style="font-weight:bold;border:0;background-color:#F5DECE;") 1.645
+                  tr
+                    td.text-center.p-3(style="font-weight:bold;border:0;background-color:#E8EAC6;") 95%
+                    td.text-center.p-3(style="font-weight:bold;border:0;background-color:#E2CBBC;") 1.96
+                  tr
+                    td.text-center.p-3(style="font-weight:bold;border:0;background-color:#D1D59A;") 99%
+                    td.text-center.p-3(style="font-weight:bold;border:0;background-color:#F5DECE;") 2.576
+
         .row.p-md-5(titulo="Margen de error (e)")
           .col-lg-7.mb-4.mb-lg-0
             h5 Margen de error (e)
@@ -92,14 +107,14 @@
 
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0
-        .mt-4.row.m-0.pt-4.pb-4.pe-4.ps-0.ps-sm-4.ps-md-4.ps-lg-0(style="background-color:#EBC9B1;")
+        .row.m-0.pt-4.pb-4.pe-4.ps-0.ps-sm-4.ps-md-4.ps-lg-0(style="background-color:#EBC9B1;")
           .col-auto.d-none.d-lg-block.p-0(style="place-self:center")
             figure
               img(src="@/assets/curso/tema2/20.png" data-aos="fade-right")
           .col(style="place-self:center")
             p.mb-0(data-aos="fade-up") Es por esto que se recurre al muestreo, el cual permite elegir solo algunos elementos que representan a toda la población. 
         p.mt-4(data-aos="fade-up") Se define como muestreos no probabilísticos a aquellos basados en el juicio personal del investigador y no de azar. Entre las técnicas de muestreo no probabilístico más usuales y destacadas, están:
-      .col-lg-4
+      .col-lg-4.d-none.d-md-block
         figure
           img(src="@/assets/curso/tema3/9.png" data-aos="fade-left")
 
@@ -157,14 +172,14 @@
         .col-lg-8.p-0
           .p-4(style="background-color:#EBC9B1;height:100%;")
             p.mb-0(data-aos="fade-up") La recolección de los datos o la captura de información, por tanto, se refiere al proceso de transformar datos compilados y disponerlos como datos que se puedan analizar e interpretar. El fin siempre será mejorar el servicio, reconocer las características de los recursos de consulta, su pertinencia, la calidad e integridad, la oportunidad, entre otros.
-        .col-lg-3.p-0
+        .col-lg-3.p-0.d-none.d-md-block
           .p-4(style="background-color:#785549;height:100%;")
-            figure.col-sm-5.m-auto
-              img(src="@/assets/curso/tema3/17.png" data-aos="fade-left")
+            figure.col-sm-5.m-auto.text-center
+              img(src="@/assets/curso/tema3/17.png" data-aos="fade-left" style="max-width:100px;display:inline;")
 
       .tarjeta.color-primario.p-3.mt-5.cont_3_4.col-lg-10.m-auto.mb-5(style="position:relative")
         .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
+          .col-auto
             img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
           .col
             .row.justify-content-between.align-items-center
@@ -172,11 +187,11 @@
                 h5.text-white(data-aos="fade-up") Recolección y mejora continua
                 p.text-small.mb-0.mt-3(data-aos="fade-up") La recolección de datos e información, por tanto, sirve como soporte para trazar estrategias efectivas de mejoramiento continuo, calidad de los contenidos y ampliación de servicios, con base en información real y debidamente recopilada.
 
-    h4.mt-5(data-aos="fade-up") En la actualidad, existen muchas bibliotecas que dependen de documentos en papel y el registro manual de datos, lo cual puede implicar:
+    p.mt-5(data-aos="fade-up" style="font-weight:bold;") En la actualidad, existen muchas bibliotecas que dependen de documentos en papel y el registro manual de datos, lo cual puede implicar:
 
     .row.mt-5.cont_3_5(style="position:relative")
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;position:relative")
-        ul.fa-ul.mt-5
+        ul.fa-ul
           li.mb-2(data-aos="fade-up")
             i.fa.fa-li.fa-check(style="color:#FD9827;")
             | Procesos de captura de datos lentos, costosos.
@@ -192,13 +207,13 @@
           li(data-aos="fade-up")
             i.fa.fa-li.fa-check(style="color:#FD9827;")
             | Necesidad de migrar a sistemas de captura de información automatizada y en línea.
-      .col-lg-5(style="place-self:center;position:relative")
+      .col-lg-5.col-8.m-auto(style="place-self:center;position:relative")
         figure
           img(src="@/assets/curso/tema3/18.png" data-aos="fade-right")
 
     .tarjeta.color-primario.p-3.mt-2.cont_3_4.col-lg-10.m-auto(style="position:relative")
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-auto
           img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
         .col
           .row.justify-content-between.align-items-center
@@ -207,7 +222,7 @@
               p.text-small.mb-0.mt-3(data-aos="fade-up") Es el proceso por el cual, utilizando herramientas tecnológicas de reconocimiento óptico para la gestión de documentos, se facilita el registro de los recursos; esto logra un procedimiento ágil, eficaz y de calidad, mitigando posibles errores de transcripción u omisión de información.
 
 
-    Separador.mt-5
+    Separador.mt-4
 
     .titulo-segundo
       h2#t_3_3 3.3 Técnicas e instrumentos de recolección de información
@@ -218,12 +233,12 @@
       .col-lg-8.p-0
         .p-4(style="background-color:#EBC9B1;height:100%;")
           p.mb-0(data-aos="fade-up") #[strong Dentro de las técnicas de recolección de datos, más destacadas, se encuentran las Manuales y las Automáticas.] 
-      .col-lg-3.p-0
+      .col-lg-3.p-0.d-none.d-md-block
         .p-4(style="background-color:#785549;height:100%;")
-          figure.col-sm-5.m-auto
-            img(src="@/assets/curso/tema3/19.png" data-aos="fade-left")
+          figure.col-sm-5.m-auto.text-center
+            img(src="@/assets/curso/tema3/19.png" data-aos="fade-left" style="max-width:100px;display:inline")
 
-    h4.mt-5(data-aos="fade-up") Entre las técnicas manuales, se enuncian como las más usadas, las siguientes:
+    p.mt-5(data-aos="fade-up" style="font-weight:bold;") Entre las técnicas manuales, se enuncian como las más usadas, las siguientes:
 
     .row.mt-5
       .col-xl-8.mb-4.mb-xl-0(style="place-self:center")
@@ -248,23 +263,23 @@
               p.mb-0(style="color:#12263F;") Ejercicio de consulta para obtener respuesta a partir de la reflexión de los trabajadores sobre los aspectos o factores que afectan el mercado o el sector, sus posibilidades de desarrollo, etc., que se realiza con formularios o cuestionarios.
       .col-xl-4(style="place-self:center")
         figure
-          img(src="@/assets/curso/tema3/20.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema3/20.svg" data-aos="fade-right")
 
     .tarjeta.color-primario.p-3.mt-2.cont_3_4.col-lg-10.m-auto.mt-5(style="position:relative")
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-auto
           img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.text-white(data-aos="fade-up") Nota
-              p.text-small.mb-0.mt-3(data-aos="fade-up") Tanto las entrevistas como las encuestas manejan formularios para realizar las preguntas, las cuales, dependiendo de la naturaleza de la información, pueden ser cerradas o abiertas, cuando se busca información descriptiva.
+              p.text-small.mb-0.mt-2(data-aos="fade-up") Tanto las entrevistas como las encuestas manejan formularios para realizar las preguntas, las cuales, dependiendo de la naturaleza de la información, pueden ser cerradas o abiertas, cuando se busca información descriptiva.
 
     .col-lg-10.m-auto.mt-4.p-5(style="background-color:#F3F9FF;border-radius:10px;")
       p.mb-0(data-aos="fade-up") El moderador de estas técnicas debe promover y facilitar que se responda con precisión a preguntas tipo: qué, cómo, dónde, etc., las cuales deben estar orientadas a obtener datos de medidas cuantitativas y hechos objetivos, hábitos, frecuencia de consumo, préstamo de material bibliográfico, opiniones, etc.
 
     .cont_3_3.pt-4.pb-5.mt-5(style="position:relative")
-      h4(data-aos="fade-up" style="position:relative") Entre las técnicas automáticas, se encuentran:
+      p(data-aos="fade-up" style="position:relative;font-weight:bold;") Entre las técnicas automáticas, se encuentran:
 
       TabsB.color-secundario.mt-5(style="position:relative;background-color:white;")
         .py-4.py-md-5(titulo="Identificación óptica de caracteres" :icono="require('@/assets/curso/tema3/21.svg')")
@@ -273,16 +288,16 @@
               h4 Identificación óptica de caracteres:
               p.mt-4 A través de un escáner y #[em software], esta tecnología tiene la capacidad de capturar caracteres en documentos con zonas preestablecidas o la página completa. Esto permite capturar información documental y de libros entre otros, facilita la preservación documental, ya que al estar en digital su vida útil es mayor.
             .col-lg-4
-              figure.col-sm-7.m-auto
-                img(src='@/assets/curso/tema3/25.png')
+              figure.col-6.m-auto
+                img(src='@/assets/curso/tema3/25.svg')
         .py-4.py-md-5(titulo="Reconocimiento inteligente de caracteres" :icono="require('@/assets/curso/tema3/22.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
               h4 Reconocimiento inteligente de caracteres
               p.mt-4 Su sigla ICR, es la traducción informática de caracteres impresos y escritos a mano alzada. Esta tecnología parte de una captura física de los datos que se ingresan en formularios impresos, se diligencian a mano alzada y través de un escáner, la imagen de los datos capturados se traduce a texto digital mediante #[em software] ICR; es similar al reconocimiento óptico de caracteres (OCR), pero es un proceso con mayor alcance ya que el ocr solo reconoce texto impresos.
             .col-lg-4
-              figure.col-sm-7.m-auto
-                img(src='@/assets/curso/tema3/26.png')
+              figure.col-6.m-auto
+                img(src='@/assets/curso/tema3/26.svg')
         .py-4.py-md-5(titulo="Reconocimiento de código de barras y código QR" :icono="require('@/assets/curso/tema3/23.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
@@ -290,20 +305,20 @@
               p.mt-4 Dependiendo del tipo de código que se use, se pueden cargar y leer una gran cantidad de metadatos, lo que facilita el proceso tanto para la entrada como para la salida de información.
               p.mt-4 La aplicación de códigos de barras individuales o códigos QR a determinados tipos de documentos, los formularios solicitud de material bibliográfico, formularios de solicitud equipos de cómputo para trabajo, etc., aumenta la efectividad de los procesos y servicios bibliotecarios.
             .col-lg-4
-              figure.col-sm-7.m-auto
-                img(src='@/assets/curso/tema3/27.png')
+              figure.col-6.m-auto
+                img(src='@/assets/curso/tema3/27.svg')
         .py-4.py-md-5(titulo="Captura de voz" :icono="require('@/assets/curso/tema3/24.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
               h4 Captura de voz
               p.mt-4 Captura de registros por voz y formularios de voz, se ha convertido en algo importante para las empresas, como otras formas de comunicación: correo electrónico, formularios web, etc. Ahora existen aplicaciones que tienen la capacidad de capturar comandos de voz para iniciar procesos de escritura, búsqueda, almacenamiento, etc.
             .col-lg-4
-              figure.col-sm-7.m-auto
-                img(src='@/assets/curso/tema3/28.png')
+              figure.col-6.m-auto
+                img(src='@/assets/curso/tema3/28.svg')
 
       .tarjeta.color-primario.p-3.mt-2.cont_3_4.col-lg-10.m-auto.mt-5.mb-5(style="position:relative")
         .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
+          .col-auto
             img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
           .col
             .row.justify-content-between.align-items-center
@@ -311,7 +326,7 @@
                 h5.text-white(data-aos="fade-up") ¡Nota!
                 p.text-small.mb-0.mt-3(data-aos="fade-up") Cada una de las alternativas de captura de información automática, exige de diversos tipos de utilitarios para la operación como, por ejemplo, escáneres, pistolas lectoras de códigos, cámaras digitalizadoras, etc., las cuales varían según el proveedor y sistema de #[em software] y sus requerimientos.
 
-    Separador.mt-5
+    Separador.mt-4
 
     .titulo-segundo
       h2#t_3_4 3.4. Almacenamiento de datos
@@ -320,7 +335,7 @@
 
     .row.mt-5
       .col-lg-7.mb-4.mb-lg-0
-        .mt-4.row.m-0.pt-4.pb-4.pe-4.ps-0.ps-sm-4.ps-md-4.ps-lg-0(style="background-color:#F5F7D6;")
+        .row.m-0.pt-4.pb-4.pe-4.ps-0.ps-sm-4.ps-md-4.ps-lg-0(style="background-color:#F5F7D6;")
           .col-auto.d-none.d-lg-block.p-0
             figure
               img(src="@/assets/curso/tema2/20.png" data-aos="fade-right")
@@ -329,7 +344,7 @@
             p.mt-4(data-aos="fade-up") Los primeros son alimentados por los operadores de los dispositivos y los computadores, a través de #[em software] como hojas de cálculo o programas especializados. Pero los computadores y sus #[em software] de aplicación no pueden calcular datos y recuperarlos, generar salidas sin previa entrada y depositar información en ellos, sin el operador.
       .col-lg-5(style="place-self:center")
         figure
-          img(src="@/assets/curso/tema3/29.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/29.svg" data-aos="fade-left")
 
     .cont_3_6.pt-5.pb-5(style="position:relative")
       h4(data-aos="fade-up" style="position:relative") En relación con el almacenamiento de datos, tenga en cuenta aspectos clave, como:
@@ -339,25 +354,25 @@
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="min-height:450px;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
-                img(src='@/assets/curso/tema3/31.png')
+                img(src='@/assets/curso/tema3/31.svg')
             h5.text-center.text-center.text-white Variedad de instrumentos
             p.text-center.text-center.text-white Existen diversos instrumentos y #[em software] para el almacenamiento de la información y datos, como son las hojas electrónicas.
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="min-height:450px;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
-                img(src='@/assets/curso/tema3/32.png')
+                img(src='@/assets/curso/tema3/32.svg')
             h5.text-center.text-center.text-white Programas de cómputo
             p.text-center.text-center.text-white Son varios los programas de cómputo alojados en computadores, que se pueden interconectar con otros operadores a través de una red electrónica o por medio de internet, facilitando la entrada de nueva información y análisis de la misma.
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="min-height:450px;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
-                img(src='@/assets/curso/tema3/33.png')
+                img(src='@/assets/curso/tema3/33.svg')
             h5.text-center.text-center.text-white Programas especializados
             p.text-center.text-center.text-white Así mismo existen programas especializados que albergan en un módulo central la información, no solo documental y de textos, sino información gráfica, audio, etc. y que permiten su operatividad para el servicio de la biblioteca.
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="min-height:450px;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
-                img(src='@/assets/curso/tema3/34.png')
+                img(src='@/assets/curso/tema3/34.svg')
             h5.text-center.text-center.text-white Resguardo y almacenaje
             p.text-center.text-center.text-white Estos sistemas dan la posibilidad de resguardar y almacenar documentos y carpetas de archivos de forma jerárquica, es decir, documentos dentro de una carpeta, que a su vez está dentro de otra carpeta.
 
@@ -387,8 +402,8 @@ export default {
 .cont_3_1:before
   content: ''
   position: absolute
-  width: 115%
-  left: -7%
+  width: 125%
+  left: -15%
   height: 92%
   background: url(../assets/curso/tema3/1.png)
   background-size: cover
@@ -436,7 +451,7 @@ export default {
   position: absolute
   width: 100%
   height: 55%
-  transform: translateY(50%)
+  transform: translateY(40%)
   background-color: #F5F7D6
 .tabs-a__tab
   background-color: #E8E8E8
@@ -468,4 +483,10 @@ export default {
   font-size: 19px
   padding: 0.8rem 1rem
   border-radius: 147px
+@media screen and (max-width: 1399px)
+  .cont_3_5:before
+    height: 100%
+    transform: none
+  .cont_3_5
+    padding-top: 3rem
 </style>
