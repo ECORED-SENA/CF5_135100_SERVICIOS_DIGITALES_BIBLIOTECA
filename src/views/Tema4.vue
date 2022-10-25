@@ -66,10 +66,10 @@
             .col-lg-4
               figure.col-sm-6.m-auto
                 img(src='@/assets/curso/tema4/5.png')
-        .py-4.py-md-5(titulo="La Moda" :icono="require('@/assets/curso/tema3/22.svg')")
+        .py-4.py-md-5(titulo="La moda" :icono="require('@/assets/curso/tema3/22.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
-              h4 La Moda
+              h4 La moda
               p.mt-4 En una muestra de datos de una población, la moda corresponde al valor o dato de la variable a analizar qué más se repite o que tiene el mismo comportamiento en diferentes individuos.
               .p-4.mt-4(style="background-color:#F5F7D6;")
                 h5 Ejemplo de moda en la biblioteca

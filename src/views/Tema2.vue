@@ -128,7 +128,7 @@
             ul.fa-ul.mt-4
               li.mb-3(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | Los colores
+                | Los colores.
               li.mb-3(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
                 | Las razones por las cuales hay ausentismo en el trabajo.
@@ -142,13 +142,13 @@
             ul.fa-ul.mt-4
               li.mb-3.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | Los días de la semana
+                | Los días de la semana.
               li.mb-3.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | El tamaño de las cosas (grande, mediano, pequeño)
+                | El tamaño de las cosas (grande, mediano, pequeño).
               li.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | En una biblioteca, la ubicación de los libros (arriba, en el medio, abajo)
+                | En una biblioteca, la ubicación de los libros (arriba, en el medio, abajo).
 
     .cont_2_4.mt-5.pt-5.pb-5(style="position:relative;")
       .row.col-md-4(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative")
@@ -191,6 +191,8 @@
           figure.col-9.m-auto
             img(src="@/assets/curso/tema2/14.png" data-aos="fade-left")
 
+      h4.mt-5(data-aos="fade-up" style="position:relative") Por otra parte, este tipo de variables cuantitativas se subdividen en:
+
       .row.col-lg-8.m-auto.mt-5
         .col-lg-6.mb-4.mb-lg-0
           .p-4(style="background-color:#FDB768;height:100%;border-radius:15px;")
@@ -213,16 +215,16 @@
                 | El valor de inversiones en material bibliográfico, ($158.600,55) por unidad adquirida en un periodo.
               li.mb-3.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | La medición del tiempo transcurrido de servicio (un año y medio)
+                | La medición del tiempo transcurrido de servicio (un año y medio).
               li.mb-3.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | La temperatura promedio en el establecimiento (18.5 C)
+                | La temperatura promedio en el establecimiento (18.5 C).
               li.mb-3.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
                 | El peso de los libros (0,75 Kg).
               li.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | La distancia entre anaqueles o estanterías (1.7 mts)
+                | La distancia entre anaqueles o estanterías (1.7 mts).
 
       h4.mt-5(data-aos="fade-up" style="position:relative") En relación con las variables cuantitativas en la gestión de bibliotecas se debe tener presente:
 

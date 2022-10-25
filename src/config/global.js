@@ -161,7 +161,7 @@ export default {
     },
     {
       referencia:
-        'Tlaxcala, I. t. (s.f.). Herramientas Estadísticas- Instituto tecnológico Apizaco de Tlaxcala. Obtenido de Herramientas Estadisticas',
+        'Tlaxcala, I. t. (s.f.). Herramientas Estadísticas- Instituto tecnológico Apizaco de Tlaxcala. Obtenido de Herramientas Estadisticas.',
       link:
         'https://alfredogutierrez.weebly.com/16-herramientas-estadisticas.html',
     },

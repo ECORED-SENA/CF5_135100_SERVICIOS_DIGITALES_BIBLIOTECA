@@ -41,7 +41,7 @@
 
       figure.mt-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/yGbtOWCHY4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mt-5(data-aos="fade-up") Elegir el tamaño necesario de la muestra para alcanzar los objetivos del estudio puede ser tan complejo y preciso como se desee. A continuación, se presentan los elementos clave a tener en cuenta:
 
@@ -226,7 +226,7 @@
     h4.mt-5(data-aos="fade-up") Entre las técnicas manuales, se enuncian como las más usadas, las siguientes:
 
     .row.mt-5
-      .col-lg-8.mb-4.mb-lg-0(style="place-self:center")
+      .col-xl-8.mb-4.mb-xl-0(style="place-self:center")
         TabsA.color-acento-contenido
           .tarjeta.color-primario.p-5(titulo="Entrevistas  <br> individuales" style="background-color:#DDD4D1;border-radius:10px")
             .row
@@ -246,7 +246,7 @@
           .tarjeta.color-primario.p-5(titulo="Autoevaluaciones" style="background-color:#DDD4D1;border-radius:10px")
             .row
               p.mb-0(style="color:#12263F;") Ejercicio de consulta para obtener respuesta a partir de la reflexión de los trabajadores sobre los aspectos o factores que afectan el mercado o el sector, sus posibilidades de desarrollo, etc., que se realiza con formularios o cuestionarios.
-      .col-lg-4(style="place-self:center")
+      .col-xl-4(style="place-self:center")
         figure
           img(src="@/assets/curso/tema3/20.png" data-aos="fade-right")
 
@@ -271,7 +271,7 @@
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
               h4 Identificación óptica de caracteres:
-              p.mt-4 A través de un escáner y software, esta tecnología tiene la capacidad de capturar caracteres en documentos con zonas preestablecidas o la página completa. Esto permite capturar información documental y de libros entre otros, facilita la preservación documental, ya que al estar en digital su vida útil es mayor.
+              p.mt-4 A través de un escáner y #[em software], esta tecnología tiene la capacidad de capturar caracteres en documentos con zonas preestablecidas o la página completa. Esto permite capturar información documental y de libros entre otros, facilita la preservación documental, ya que al estar en digital su vida útil es mayor.
             .col-lg-4
               figure.col-sm-7.m-auto
                 img(src='@/assets/curso/tema3/25.png')
@@ -279,7 +279,7 @@
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
               h4 Reconocimiento inteligente de caracteres
-              p.mt-4 Su sigla ICR, es la traducción informática de caracteres impresos y escritos a mano alzada. Esta tecnología parte de una captura física de los datos que se ingresan en formularios impresos, se diligencian a mano alzada y través de un escáner, la imagen de los datos capturados se traduce a texto digital mediante software ICR; es similar al reconocimiento óptico de caracteres (OCR), pero es un proceso con mayor alcance ya que el ocr solo reconoce texto impresos.
+              p.mt-4 Su sigla ICR, es la traducción informática de caracteres impresos y escritos a mano alzada. Esta tecnología parte de una captura física de los datos que se ingresan en formularios impresos, se diligencian a mano alzada y través de un escáner, la imagen de los datos capturados se traduce a texto digital mediante #[em software] ICR; es similar al reconocimiento óptico de caracteres (OCR), pero es un proceso con mayor alcance ya que el ocr solo reconoce texto impresos.
             .col-lg-4
               figure.col-sm-7.m-auto
                 img(src='@/assets/curso/tema3/26.png')
@@ -309,7 +309,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h5.text-white(data-aos="fade-up") ¡Nota!
-                p.text-small.mb-0.mt-3(data-aos="fade-up") Cada una de las alternativas de captura de información automática, exige de diversos tipos de utilitarios para la operación como, por ejemplo, escáneres, pistolas lectoras de códigos, cámaras digitalizadoras, etc., las cuales varían según el proveedor y sistema de software y sus requerimientos.
+                p.text-small.mb-0.mt-3(data-aos="fade-up") Cada una de las alternativas de captura de información automática, exige de diversos tipos de utilitarios para la operación como, por ejemplo, escáneres, pistolas lectoras de códigos, cámaras digitalizadoras, etc., las cuales varían según el proveedor y sistema de #[em software] y sus requerimientos.
 
     Separador.mt-5
 
@@ -326,7 +326,7 @@
               img(src="@/assets/curso/tema2/20.png" data-aos="fade-right")
           .col(style="place-self:center")
             p.mb-0(data-aos="fade-up") Existen particularmente dos tipos de información digital a generar: los #[strong datos de entrada y los datos de salida.]
-            p.mt-4(data-aos="fade-up") Los primeros son alimentados por los operadores de los dispositivos y los computadores, a través de software como hojas de cálculo o programas especializados. Pero los computadores y sus software de aplicación no pueden calcular datos y recuperarlos, generar salidas sin previa entrada y depositar información en ellos, sin el operador.
+            p.mt-4(data-aos="fade-up") Los primeros son alimentados por los operadores de los dispositivos y los computadores, a través de #[em software] como hojas de cálculo o programas especializados. Pero los computadores y sus #[em software] de aplicación no pueden calcular datos y recuperarlos, generar salidas sin previa entrada y depositar información en ellos, sin el operador.
       .col-lg-5(style="place-self:center")
         figure
           img(src="@/assets/curso/tema3/29.png" data-aos="fade-left")
@@ -341,7 +341,7 @@
               .col-8.m-auto.text-center
                 img(src='@/assets/curso/tema3/31.png')
             h5.text-center.text-center.text-white Variedad de instrumentos
-            p.text-center.text-center.text-white Existen diversos instrumentos y software para el almacenamiento de la información y datos, como son las hojas electrónicas.
+            p.text-center.text-center.text-white Existen diversos instrumentos y #[em software] para el almacenamiento de la información y datos, como son las hojas electrónicas.
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="min-height:450px;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
