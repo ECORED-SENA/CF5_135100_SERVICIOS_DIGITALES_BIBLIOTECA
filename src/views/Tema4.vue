@@ -21,14 +21,14 @@
 
       br
       .row.mt-5.col-xl-8.m-auto(style="position:relative")
-        .col-xl-6.mb-5.mb-xl-0
-          .p-5.pt-0(style="background-color:#FDB768;height:100%;border-radius:10px;")
+        .col-xl-6.mb-5.mb-xl-0.col-sm-8.m-auto.mt-0
+          .p-4.pb-2.pt-0(style="background-color:#FDB768;height:100%;border-radius:10px;")
             figure.col-4.m-auto
               img(src="@/assets/curso/tema4/2.svg" data-aos="zoom-in-up" style="position:relative;top:-50px;")
             h5.text-center(data-aos="fade-up") Medidas de tendencia central
             p.mt-4(data-aos="fade-up") Describen qué nivel de ubicación o posición tienen los datos, en promedio, dentro del campo de actuación o comportamiento de la variable. Ejemplo: se busca medir la edad de los usuarios de un servicio, entonces al conjunto de datos obtenidos de la muestra, se le realizará un análisis para identificar en centímetros el alcance de los datos.
-        .col-xl-6.mb-5.mb-xl-0.mt-5.mt-xl-0
-          .p-5.pt-0(style="background-color:#785549;height:100%;border-radius:10px;")
+        .col-xl-6.mb-5.mb-xl-0.mt-5.mt-xl-0.col-sm-8.m-auto
+          .p-4.pb-2.pt-0(style="background-color:#785549;height:100%;border-radius:10px;")
             figure.col-4.m-auto
               img(src="@/assets/curso/tema4/3.svg" data-aos="zoom-in-up" style="position:relative;top:-50px;")
             h5.text-center.text-white(data-aos="fade-up") Medidas de dispersión
@@ -53,8 +53,8 @@
                 h5 ¿Cómo se calcula la media aritmética?
                 p.mb-0 Se calcula sumando el conjunto de valores obtenidos y que obedecen a la muestra, sumando cada uno de los valores obtenidos y dividiendo dicha suma entre el número total de valores.
             .col-lg-4
-              figure.col-6.m-auto
-                img(src='@/assets/curso/tema4/4.png')
+              figure.col-3.m-auto
+                img(src='@/assets/curso/tema4/4.svg')
         .py-4.py-md-5(titulo="La mediana" :icono="require('@/assets/curso/tema3/22.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
@@ -64,8 +64,8 @@
                 h5 Si los datos son pares ¿cómo establecer la media?
                 p.mb-0 Cuando el conjunto de datos de la muestra es par, La mediana se calcula y será el valor medio de los dos valores centrales, por ejemplo: si para determinar el número de préstamos de una obra literaria consultada en el último mes, la muestra es de cuatro datos de préstamos (3, 9, 11, 15), La Mediana de préstamos de esa obra en el último mes será: (9+11) / 2 = 10. Representando que, en promedio, esa obra se prestó 10 veces al mes.
             .col-lg-4
-              figure.col-6.m-auto
-                img(src='@/assets/curso/tema4/5.png')
+              figure.col-3.m-auto
+                img(src='@/assets/curso/tema4/5.svg')
         .py-4.py-md-5(titulo="La moda" :icono="require('@/assets/curso/tema3/23.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
@@ -77,8 +77,8 @@
               h5.mt-4 Nota importante sobre la moda
               p Pueden existir varias modas, es decir, varios valores se pueden repetir en iguales proporciones, inclusive en una misma muestra; aunque sugiere dos o más modas, lo que sí da es una tendencia de preferencias.
             .col-lg-4
-              figure.col-sm-6.m-auto
-                img(src='@/assets/curso/tema4/6.png')
+              figure.col-sm-3.m-auto
+                img(src='@/assets/curso/tema4/6.svg')
 
     p.mt-5(data-aos="fade-up" style="font-weight:bold;") Entre las medidas de dispersión, principales, están:
 

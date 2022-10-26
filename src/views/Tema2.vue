@@ -21,21 +21,21 @@
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/3.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
             .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
-              .p-4.pt-0.pb-0
+              .p-4.ps-2.pe-2.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") La edad
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … de un grupo de personas
         .col-xl-2.col-6.mb-5.mb-xl-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/4.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
             .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
-              .p-4.pt-0.pb-0
+              .p-4.ps-2.pe-2.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") La estatura
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … de los niños de un nivel de estudio
         .col-xl-2.col-6.mb-5.mb-xl-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/5.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
             .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
-              .p-4.pt-0.pb-0
+              .p-4.ps-2.pe-2.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") El peso
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … o la altura de los edificios de una región
 
@@ -43,14 +43,14 @@
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/6.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
             .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
-              .p-4.pt-0.pb-0
+              .p-4.ps-2.pe-2.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") El tipo
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … de enfermedades asociadas a las formas de alimentación
         .col-xl-2.mb-5.mb-xl-0
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/7.png' data-aos="zoom-in-up" style="width:95px;left:25%;right:25%;")
             .tarjeta.color-primario(style="background-color:#F5E8DF;border:3px #31313C solid;padding-top:30px !important;")
-              .p-4.pt-0.pb-0
+              .p-4.ps-2.pe-2.pt-0.pb-0
                 h5.text-center(data-aos="fade-up" style="color:#31313C;") El nivel
                 p.text-center(data-aos="fade-up" style="color:#31313C;") … de estudios de las personas en cargos públicos
 
@@ -85,7 +85,7 @@
           img(src="@/assets/curso/tema2/8.png" data-aos="fade-left")
 
     .cont_2_3.mt-5.pt-5.pb-5(style="position:relative;")
-      .row.col-lg-4(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative")
+      .row(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative;width:fit-content;")
         .col-auto
           figure
             img(src="@/assets/curso/tema2/11.png" data-aos="fade-right")
@@ -94,7 +94,7 @@
       .row.mt-5
         .col-lg-7.mb-4.mb-lg-0
           p(data-aos="fade-up") Las variables cualitativas son aquellas que expresan características, como su nombre lo indica, de las cualidades, de un conjunto de individuos, objetos u animales, que se pueden expresar semánticamente con palabras.
-          h4.mt-5(data-aos="fade-up") Algunos ejemplos de variables cualitativas, pueden ser:
+          p.mt-5(data-aos="fade-up" style="font-weight:bold;") Algunos ejemplos de variables cualitativas, pueden ser:
           ul.fa-ul.mt-5
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
@@ -118,7 +118,7 @@
           figure.col-9.m-auto
             img(src="@/assets/curso/tema2/12.png" data-aos="fade-left")
 
-      h4.mt-5(data-aos="fade-up" style="position:relative") Por otra parte, este tipo de variables cualitativas se subdividen en:
+      p.mt-5(data-aos="fade-up" style="position:relative;font-weight:bold;") Por otra parte, este tipo de variables cualitativas se subdividen en:
 
       .row.col-lg-8.m-auto.mt-5
         .col-lg-6.mb-4.mb-lg-0
@@ -151,7 +151,7 @@
                 | En una biblioteca, la ubicación de los libros (arriba, en el medio, abajo).
 
     .cont_2_4.mt-5.pt-5.pb-5(style="position:relative;")
-      .row.col-lg-4(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative")
+      .row(style="background: rgb(192,201,66);background: linear-gradient(360deg, rgba(192,201,66,1) 75%, rgba(255,255,255,1) 75%);position:relative;width:fit-content;")
         .col-auto
           figure
             img(src="@/assets/curso/tema2/11.png" data-aos="fade-right")
@@ -161,7 +161,7 @@
       .row.mt-5
         .col-lg-7.mb-4.mb-lg-0
           p(data-aos="fade-up") Las variables cuantitativas, por su parte, son aquellas que expresan las características de un conjunto de objetos, animales o individuos y que se expresan en cantidades o se escriben en números.
-          h4.mt-5(data-aos="fade-up") Algunos ejemplos de variables cuantitativas, pueden ser:
+          p.mt-5(data-aos="fade-up" style="font-weight:bold;") Algunos ejemplos de variables cuantitativas, pueden ser:
           ul.fa-ul.mt-5
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
@@ -191,7 +191,7 @@
           figure.col-9.m-auto
             img(src="@/assets/curso/tema2/14.png" data-aos="fade-left")
 
-      h4.mt-5(data-aos="fade-up" style="position:relative") Por otra parte, este tipo de variables cuantitativas se subdividen en:
+      p.mt-5(data-aos="fade-up" style="position:relative;font-weight:bold;") Por otra parte, este tipo de variables cuantitativas se subdividen en:
 
       .row.col-lg-8.m-auto.mt-5
         .col-xl-6.mb-4.mb-xl-0
@@ -226,28 +226,28 @@
                 i.fa.fa-li.fa-check(style="color:#fff;")
                 | La distancia entre anaqueles o estanterías (1.7 mts).
 
-      h4.mt-5(data-aos="fade-up" style="position:relative") En relación con las variables cuantitativas en la gestión de bibliotecas se debe tener presente:
+      p.mt-5(data-aos="fade-up" style="position:relative;font-weight:bold;") En relación con las variables cuantitativas en la gestión de bibliotecas se debe tener presente:
 
-      .row.col-xl-10.m-auto.mt-5
-        .col-xl-4.mb-4.mb-xl-0
+      .row.col-xl-10.m-auto.mt-5(style="position:relative")
+        .col-xl-4.mb-4.mb-xl-0.col-8.m-auto
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="height:100%;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
-                img(src='@/assets/curso/tema2/16.png' data-aos="zoom-in-up")
+                img(src='@/assets/curso/tema2/16.svg' data-aos="zoom-in-up")
             h5.text-center.text-center.text-white(data-aos="fade-up") Utilización apropiada de los datos
             p.text-center.text-center.text-white(data-aos="fade-up") Los directores, coordinadores y el personal del equipo de trabajadores que gestionan servicios bibliotecarios deben aprender a utilizar los datos, de diversa índole, que se generan por la prestación del servicio y operación.
-        .col-xl-4.mb-4.mb-xl-0
+        .col-xl-4.mb-4.mb-xl-0.col-8.m-auto
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="height:100%;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
-                img(src='@/assets/curso/tema2/17.png' data-aos="zoom-in-up")
+                img(src='@/assets/curso/tema2/17.svg' data-aos="zoom-in-up")
             h5.text-center.text-center.text-white(data-aos="fade-up") Interpretación y uso de la información
             p.text-center.text-center.text-white(data-aos="fade-up") Con tal experticia y teniendo a la estadística como recurso, se espera interpretar y usar la información agregada o resumida de algún tipo de variable o factor por analizar.
-        .col-xl-4.mb-4.mb-xl-0
+        .col-xl-4.mb-4.mb-xl-0.col-8.m-auto
           .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas(style="height:100%;")
             .row.justify-content-center.mb-3
               .col-8.m-auto.text-center
-                img(src='@/assets/curso/tema2/18.png' data-aos="zoom-in-up")
+                img(src='@/assets/curso/tema2/18.svg' data-aos="zoom-in-up")
             h5.text-center.text-center.text-white(data-aos="fade-up") Hallazgos y toma de decisiones
             p.text-center.text-center.text-white(data-aos="fade-up") Así mismo, se busca registrar, expresar y procesar los hallazgos en función de tomar decisiones sobre las necesidades de mejora del servicio, entre otros.
 
@@ -273,7 +273,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    h4.mt-5(data-aos="fade-up") En relación con los elementos de la estadística, tenga en cuenta los siguiente aspectos clave:
+    p.mt-5(data-aos="fade-up" style="font-weight:bold;") En relación con los elementos de la estadística, tenga en cuenta los siguiente aspectos clave:
 
     .row.mt-5
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center")

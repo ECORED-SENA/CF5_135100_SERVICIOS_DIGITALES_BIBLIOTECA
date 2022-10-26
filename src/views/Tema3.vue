@@ -15,12 +15,12 @@
             img(src="@/assets/curso/tema3/2.png" data-aos="fade-right")
         .col(style="place-self:center")
           p.mb-0(data-aos="fade-up") En otras palabras, el muestreo es el procedimiento mediante el cual se selecciona cierta cantidad de individuos, objetos o animales que conforman una población sujeta de análisis en alguna de sus características o variables de comportamiento sobre la que se quiera indagar para tomar decisiones.
-      h4.mt-5(data-aos="fade-up" style="position:relative") Los muestreos son importantes y necesarios dado que:
+      p.mt-5(data-aos="fade-up" style="position:relative;font-weight:bold;") Los muestreos son importantes y necesarios dado que:
 
       .row.mt-5(style="position:relative")
         .col-xl-5.mb-4.mb-xl-0(style="place-self:center")
-          figure
-            img(src="@/assets/curso/tema3/3.png" data-aos="fade-right")
+          figure.col-7.m-auto
+            img(src="@/assets/curso/tema3/3.svg" data-aos="fade-right")
         .col-xl-6(style="place-self:center")
           .p-5.bg-white(style="border-radius:10px;")
             ul.fa-ul
@@ -114,7 +114,7 @@
           .col(style="place-self:center")
             p.mb-0(data-aos="fade-up") Es por esto que se recurre al muestreo, el cual permite elegir solo algunos elementos que representan a toda la población. 
         p.mt-4(data-aos="fade-up") Se define como muestreos no probabilísticos a aquellos basados en el juicio personal del investigador y no de azar. Entre las técnicas de muestreo no probabilístico más usuales y destacadas, están:
-      .col-lg-4.d-none.d-md-block
+      .col-lg-4.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema3/9.png" data-aos="fade-left")
 
@@ -172,7 +172,7 @@
         .col-lg-8.p-0
           .p-4(style="background-color:#EBC9B1;height:100%;")
             p.mb-0(data-aos="fade-up") La recolección de los datos o la captura de información, por tanto, se refiere al proceso de transformar datos compilados y disponerlos como datos que se puedan analizar e interpretar. El fin siempre será mejorar el servicio, reconocer las características de los recursos de consulta, su pertinencia, la calidad e integridad, la oportunidad, entre otros.
-        .col-lg-3.p-0.d-none.d-md-block
+        .col-lg-3.p-0.d-none.d-lg-block
           .p-4(style="background-color:#785549;height:100%;")
             figure.col-sm-5.m-auto.text-center
               img(src="@/assets/curso/tema3/17.png" data-aos="fade-left" style="max-width:100px;display:inline;")
@@ -189,8 +189,8 @@
 
     p.mt-5(data-aos="fade-up" style="font-weight:bold;") En la actualidad, existen muchas bibliotecas que dependen de documentos en papel y el registro manual de datos, lo cual puede implicar:
 
-    .row.mt-5.cont_3_5(style="position:relative")
-      .col-lg-7.mb-4.mb-lg-0(style="place-self:center;position:relative")
+    .row.cont_3_5.pt-4(style="position:relative")
+      .col-lg-7.mb-5.mb-lg-0(style="place-self:center;position:relative")
         ul.fa-ul
           li.mb-2(data-aos="fade-up")
             i.fa.fa-li.fa-check(style="color:#FD9827;")
@@ -233,7 +233,7 @@
       .col-lg-8.p-0
         .p-4(style="background-color:#EBC9B1;height:100%;")
           p.mb-0(data-aos="fade-up") #[strong Dentro de las técnicas de recolección de datos, más destacadas, se encuentran las Manuales y las Automáticas.] 
-      .col-lg-3.p-0.d-none.d-md-block
+      .col-lg-3.p-0.d-none.d-lg-block
         .p-4(style="background-color:#785549;height:100%;")
           figure.col-sm-5.m-auto.text-center
             img(src="@/assets/curso/tema3/19.png" data-aos="fade-left" style="max-width:100px;display:inline")
@@ -262,7 +262,7 @@
             .row
               p.mb-0(style="color:#12263F;") Ejercicio de consulta para obtener respuesta a partir de la reflexión de los trabajadores sobre los aspectos o factores que afectan el mercado o el sector, sus posibilidades de desarrollo, etc., que se realiza con formularios o cuestionarios.
       .col-xl-4(style="place-self:center")
-        figure
+        figure.col-7.m-auto
           img(src="@/assets/curso/tema3/20.svg" data-aos="fade-right")
 
     .tarjeta.color-primario.p-3.mt-2.cont_3_4.col-lg-10.m-auto.mt-5(style="position:relative")
@@ -288,7 +288,7 @@
               h4 Identificación óptica de caracteres:
               p.mt-4 A través de un escáner y #[em software], esta tecnología tiene la capacidad de capturar caracteres en documentos con zonas preestablecidas o la página completa. Esto permite capturar información documental y de libros entre otros, facilita la preservación documental, ya que al estar en digital su vida útil es mayor.
             .col-lg-4
-              figure.col-6.m-auto
+              figure.col-3.m-auto
                 img(src='@/assets/curso/tema3/25.svg')
         .py-4.py-md-5(titulo="Reconocimiento inteligente de caracteres" :icono="require('@/assets/curso/tema3/22.svg')")
           .row.p-4
@@ -296,7 +296,7 @@
               h4 Reconocimiento inteligente de caracteres
               p.mt-4 Su sigla ICR, es la traducción informática de caracteres impresos y escritos a mano alzada. Esta tecnología parte de una captura física de los datos que se ingresan en formularios impresos, se diligencian a mano alzada y través de un escáner, la imagen de los datos capturados se traduce a texto digital mediante #[em software] ICR; es similar al reconocimiento óptico de caracteres (OCR), pero es un proceso con mayor alcance ya que el ocr solo reconoce texto impresos.
             .col-lg-4
-              figure.col-6.m-auto
+              figure.col-3.m-auto
                 img(src='@/assets/curso/tema3/26.svg')
         .py-4.py-md-5(titulo="Reconocimiento de código de barras y código QR" :icono="require('@/assets/curso/tema3/23.svg')")
           .row.p-4
@@ -305,7 +305,7 @@
               p.mt-4 Dependiendo del tipo de código que se use, se pueden cargar y leer una gran cantidad de metadatos, lo que facilita el proceso tanto para la entrada como para la salida de información.
               p.mt-4 La aplicación de códigos de barras individuales o códigos QR a determinados tipos de documentos, los formularios solicitud de material bibliográfico, formularios de solicitud equipos de cómputo para trabajo, etc., aumenta la efectividad de los procesos y servicios bibliotecarios.
             .col-lg-4
-              figure.col-6.m-auto
+              figure.col-3.m-auto
                 img(src='@/assets/curso/tema3/27.svg')
         .py-4.py-md-5(titulo="Captura de voz" :icono="require('@/assets/curso/tema3/24.svg')")
           .row.p-4
@@ -313,10 +313,10 @@
               h4 Captura de voz
               p.mt-4 Captura de registros por voz y formularios de voz, se ha convertido en algo importante para las empresas, como otras formas de comunicación: correo electrónico, formularios web, etc. Ahora existen aplicaciones que tienen la capacidad de capturar comandos de voz para iniciar procesos de escritura, búsqueda, almacenamiento, etc.
             .col-lg-4
-              figure.col-6.m-auto
+              figure.col-3.m-auto
                 img(src='@/assets/curso/tema3/28.svg')
 
-      .tarjeta.color-primario.p-3.mt-2.cont_3_4.col-lg-10.m-auto.mt-5.mb-5(style="position:relative")
+      .tarjeta.color-primario.p-3.mt-2.cont_3_4.col-lg-10.m-auto.mt-5.mb-4(style="position:relative")
         .row.justify-content-around.align-items-center
           .col-auto
             img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
@@ -326,7 +326,7 @@
                 h5.text-white(data-aos="fade-up") ¡Nota!
                 p.text-small.mb-0.mt-3(data-aos="fade-up") Cada una de las alternativas de captura de información automática, exige de diversos tipos de utilitarios para la operación como, por ejemplo, escáneres, pistolas lectoras de códigos, cámaras digitalizadoras, etc., las cuales varían según el proveedor y sistema de #[em software] y sus requerimientos.
 
-    Separador.mt-4
+    Separador
 
     .titulo-segundo
       h2#t_3_4 3.4. Almacenamiento de datos
@@ -347,7 +347,7 @@
           img(src="@/assets/curso/tema3/29.svg" data-aos="fade-left")
 
     .cont_3_6.pt-5.pb-5(style="position:relative")
-      h4(data-aos="fade-up" style="position:relative") En relación con el almacenamiento de datos, tenga en cuenta aspectos clave, como:
+      p(data-aos="fade-up" style="position:relative;font-weight:bold;") En relación con el almacenamiento de datos, tenga en cuenta aspectos clave, como:
 
       .mt-5
         SlyderF(columnas="col-lg-4" style="position:relative")
@@ -451,8 +451,9 @@ export default {
   position: absolute
   width: 100%
   height: 55%
-  transform: translateY(40%)
+  transform: translateY(43%)
   background-color: #F5F7D6
+  top: 0
 .tabs-a__tab
   background-color: #E8E8E8
 .tabs-b__tab
@@ -485,8 +486,6 @@ export default {
   border-radius: 147px
 @media screen and (max-width: 1399px)
   .cont_3_5:before
-    height: 100%
+    height: 40%
     transform: none
-  .cont_3_5
-    padding-top: 3rem
 </style>

@@ -42,7 +42,7 @@
           p.mt-4.mb-0(data-aos="fade-up") Más que resumir y describir datos, busca hacer predicciones, conclusiones y generalizaciones de situaciones.
           p.mt-4.mb-0(data-aos="fade-up") Obtiene conclusiones a partir de los datos utilizados en el análisis. #[br] Siempre presumiendo un grado de incertidumbre o falla por la interpretación o calidad misma de los datos.
 
-    h4.mt-5(data-aos="fade-up") En la biblioteca, la estadística tiene como objetivos principales:
+    p.mt-5(data-aos="fade-up" style="font-weight:bold;") En la biblioteca, la estadística tiene como objetivos principales:
 
     .row.mt-5.col-lg-8.m-auto
       .col-lg-6.mb-5.mb-lg-0.col-10.m-auto
@@ -54,7 +54,7 @@
             .tarjeta-flip__contenido.p-5.p-xl-5(style="background-color:#FDB768;")
               h5.text-center.mt-5(style="color:#12263F;") Medir y evaluar
               p.mt-5.mb-5(style="color:#12263F;") La calidad y la eficiencia en la prestación de los servicios bibliotecarios para, así, emprender acciones de mejora.
-      .col-lg-6.mb-5.mb-lg-0.col-10.m-auto
+      .col-lg-6.mb-5.mb-lg-0.col-10.m-auto.mt-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -89,11 +89,11 @@
             .row.p-5
               h4(style="color:#FD9827;") Datos públicos
               p Aquellos que registran el acceso a las búsquedas, préstamos o suministros en sí, servicio on-line, uso de la colección, frecuencias, consultas, descargas de materiales, promoción de uso de bases de consulta, entre otros.
-        .col-lg-6.d-none.d-md-block(style="place-self:center;")
+        .col-lg-6.d-none.d-lg-block(style="place-self:center;")
           figure
             img(src="@/assets/curso/tema1/9.png" data-aos="fade-left")
 
-    h4.mt-5(data-aos="fade-up") En relación con los datos estadísticos en la gestión de las bibliotecas, se recomienda tener muy en cuentas aspectos como:
+    p.mt-5(data-aos="fade-up" style="font-weight:bold;") En relación con los datos estadísticos en la gestión de las bibliotecas, se recomienda tener muy en cuentas aspectos como:
 
     h5.text-center.mt-5(data-aos="fade-up") Aspectos clave del análisis de datos en bibliotecas
 
@@ -142,7 +142,7 @@
           img(src="@/assets/curso/tema1/7.png" data-aos="fade-right")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-0.p-3
               h5.text-white(data-aos="fade-up") ¡Importante!
               p.text-small.mb-0.mt-3(data-aos="fade-up") Estos, y otros aspectos, permitirán identificar patrones de comportamiento, sucesos o diferentes características de los conjuntos de datos a analizar, para mejorar la oferta, el servicio, recursos, procesos, experiencias en la biblioteca.
 
@@ -200,4 +200,6 @@ export default {
 @media screen and (max-width: 1399px)
   .cont_1_3:before
     height: 100%
+  .cont_1_3 .col-lg-5
+    place-self: center
 </style>

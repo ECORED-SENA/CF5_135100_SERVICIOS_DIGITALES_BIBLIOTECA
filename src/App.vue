@@ -77,4 +77,7 @@ export default {
   color: #12263F
 .banner-interno__titulo__icono i
   color: #fff
+@media screen and (max-width: 1200px)
+  .banner-principal-decorativo-1, .banner-principal-decorativo-2, .banner-principal-decorativo-3, .banner-principal-decorativo-4
+    max-width: 90px
 </style>
