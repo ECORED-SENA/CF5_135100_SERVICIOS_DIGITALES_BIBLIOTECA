@@ -53,7 +53,7 @@
                 h5 ¿Cómo se calcula la media aritmética?
                 p.mb-0 Se calcula sumando el conjunto de valores obtenidos y que obedecen a la muestra, sumando cada uno de los valores obtenidos y dividiendo dicha suma entre el número total de valores.
             .col-lg-4
-              figure.col-3.m-auto
+              figure.col-3.m-auto.col-lg-8.col-md-5
                 img(src='@/assets/curso/tema4/4.svg')
         .py-4.py-md-5(titulo="La mediana" :icono="require('@/assets/curso/tema3/22.svg')")
           .row.p-4
@@ -64,7 +64,7 @@
                 h5 Si los datos son pares ¿cómo establecer la media?
                 p.mb-0 Cuando el conjunto de datos de la muestra es par, La mediana se calcula y será el valor medio de los dos valores centrales, por ejemplo: si para determinar el número de préstamos de una obra literaria consultada en el último mes, la muestra es de cuatro datos de préstamos (3, 9, 11, 15), La Mediana de préstamos de esa obra en el último mes será: (9+11) / 2 = 10. Representando que, en promedio, esa obra se prestó 10 veces al mes.
             .col-lg-4
-              figure.col-3.m-auto
+              figure.col-3.m-auto.col-lg-8.col-md-5
                 img(src='@/assets/curso/tema4/5.svg')
         .py-4.py-md-5(titulo="La moda" :icono="require('@/assets/curso/tema3/23.svg')")
           .row.p-4
@@ -77,7 +77,7 @@
               h5.mt-4 Nota importante sobre la moda
               p Pueden existir varias modas, es decir, varios valores se pueden repetir en iguales proporciones, inclusive en una misma muestra; aunque sugiere dos o más modas, lo que sí da es una tendencia de preferencias.
             .col-lg-4
-              figure.col-sm-3.m-auto
+              figure.col-3.m-auto.col-lg-8.col-md-5
                 img(src='@/assets/curso/tema4/6.svg')
 
     p.mt-5(data-aos="fade-up" style="font-weight:bold;") Entre las medidas de dispersión, principales, están:

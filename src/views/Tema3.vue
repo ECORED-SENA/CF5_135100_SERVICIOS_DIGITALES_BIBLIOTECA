@@ -19,7 +19,7 @@
 
       .row.mt-5(style="position:relative")
         .col-xl-5.mb-4.mb-xl-0(style="place-self:center")
-          figure.col-7.m-auto
+          figure.col-7.m-auto.col-md-10.col-lg-12
             img(src="@/assets/curso/tema3/3.svg" data-aos="fade-right")
         .col-xl-6(style="place-self:center")
           .p-5.bg-white(style="border-radius:10px;")
@@ -174,7 +174,7 @@
             p.mb-0(data-aos="fade-up") La recolección de los datos o la captura de información, por tanto, se refiere al proceso de transformar datos compilados y disponerlos como datos que se puedan analizar e interpretar. El fin siempre será mejorar el servicio, reconocer las características de los recursos de consulta, su pertinencia, la calidad e integridad, la oportunidad, entre otros.
         .col-lg-3.p-0.d-none.d-lg-block
           .p-4(style="background-color:#785549;height:100%;")
-            figure.col-sm-5.m-auto.text-center
+            figure.m-auto.text-center
               img(src="@/assets/curso/tema3/17.png" data-aos="fade-left" style="max-width:100px;display:inline;")
 
       .tarjeta.color-primario.p-3.mt-5.cont_3_4.col-lg-10.m-auto.mb-5(style="position:relative")
@@ -235,7 +235,7 @@
           p.mb-0(data-aos="fade-up") #[strong Dentro de las técnicas de recolección de datos, más destacadas, se encuentran las Manuales y las Automáticas.] 
       .col-lg-3.p-0.d-none.d-lg-block
         .p-4(style="background-color:#785549;height:100%;")
-          figure.col-sm-5.m-auto.text-center
+          figure.m-auto.text-center
             img(src="@/assets/curso/tema3/19.png" data-aos="fade-left" style="max-width:100px;display:inline")
 
     p.mt-5(data-aos="fade-up" style="font-weight:bold;") Entre las técnicas manuales, se enuncian como las más usadas, las siguientes:
