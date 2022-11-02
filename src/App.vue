@@ -80,4 +80,6 @@ export default {
 @media screen and (max-width: 1200px)
   .banner-principal-decorativo-1, .banner-principal-decorativo-2, .banner-principal-decorativo-3, .banner-principal-decorativo-4
     max-width: 90px
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #12263F !important
 </style>

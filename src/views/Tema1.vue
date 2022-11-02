@@ -88,12 +88,12 @@
               p Donde lo que se busca registrar se relaciona con los niveles de pedidos de libros digitales, solicitudes de consecución de materiales específicos, el proceso físico, el registro de materiales (revistas, libros digitales o físicos, artículos, material pictográfico, domicilios y demás propios del servicio).
             .row.p-5
               h4(style="color:#FD9827;") Datos públicos
-              p Aquellos que registran el acceso a las búsquedas, préstamos o suministros en sí, servicio on-line, uso de la colección, frecuencias, consultas, descargas de materiales, promoción de uso de bases de consulta, entre otros.
+              p Aquellos que registran el acceso a las búsquedas, préstamos o suministros en sí, servicio en línea, uso de la colección, frecuencias, consultas, descargas de materiales, promoción de uso de bases de consulta, entre otros.
         .col-lg-6.d-none.d-lg-block(style="place-self:center;")
           figure
             img(src="@/assets/curso/tema1/9.png" data-aos="fade-left")
 
-    p.mt-5(data-aos="fade-up" style="font-weight:bold;") En relación con los datos estadísticos en la gestión de las bibliotecas, se recomienda tener muy en cuentas aspectos como:
+    p.mt-5(data-aos="fade-up" style="font-weight:bold;") En relación con los datos estadísticos en la gestión de las bibliotecas, se recomienda tener muy en cuenta aspectos como:
 
     h5.text-center.mt-5(data-aos="fade-up") Aspectos clave del análisis de datos en bibliotecas
 
@@ -122,7 +122,7 @@
             | ¿Qué temas son los más consultados?
           li.mb-2(data-aos="fade-up")
             i.fa.fa-li.fa-check(style="color:#FD9827;")
-            | ¿Cuál es la edad de nuestros clientes, que características tienen?
+            | ¿Cuál es la edad de nuestros clientes, qué características tienen?
           li.mb-2(data-aos="fade-up")
             i.fa.fa-li.fa-check(style="color:#FD9827;")
             | ¿Qué servicios son los más demandados por los usuarios?
@@ -131,7 +131,7 @@
             | ¿Qué tipo de experiencia, satisfacción expresan los clientes?
           li.mb-2(data-aos="fade-up")
             i.fa.fa-li.fa-check(style="color:#FD9827;")
-            | ¿Cuántas consultas, descargas, prestamos se prestan por periodos?
+            | ¿Cuántas consultas, descargas, préstamos se hacen por periodos?
       .col-lg-5
         figure.col-10.m-auto
           img(src="@/assets/curso/tema1/12.png")

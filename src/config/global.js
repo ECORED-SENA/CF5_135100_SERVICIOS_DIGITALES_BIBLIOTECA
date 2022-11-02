@@ -161,7 +161,7 @@ export default {
     },
     {
       referencia:
-        'Tlaxcala, I. t. (s.f.). Herramientas Estadísticas- Instituto tecnológico Apizaco de Tlaxcala. Obtenido de Herramientas Estadisticas.',
+        'Tlaxcala, I. t. (s.f.). Herramientas Estadísticas- Instituto tecnológico Apizaco de Tlaxcala.',
       link:
         'https://alfredogutierrez.weebly.com/16-herramientas-estadisticas.html',
     },
@@ -190,7 +190,7 @@ export default {
     {
       termino: 'Encuesta',
       significado:
-        'Técnica de aplicación de un cuestionario para obtener información referente a consumos y preferencias, y que facilitan la identificación de tendencias Proporcionan información de opiniones, actitudes y comportamientos de los empleados, clientes, proveedores, etc.',
+        'Técnica de aplicación de un cuestionario para obtener información referente a consumos y preferencias, y que facilitan la identificación de tendencias. Proporcionan información de opiniones, actitudes y comportamientos de los empleados, clientes, proveedores, etc.',
     },
     {
       termino: 'Estadísticas',
@@ -212,7 +212,7 @@ export default {
     {
       tema: 'Técnicas de selección',
       referencia:
-        'del Ramo Romero José Juan, Núñez de Murga Javier (2012). Universidad de Valencia',
+        'del Ramo Romero José Juan, Núñez de Murga Javier (2012). Almacenamiento y recuperación de información bibliográfica. Universidad de Valencia',
       tipo: 'Artículo',
       link: 'http://ocw.uv.es/ciencias/2-1/3_almacenamientoyrecuperacion.pdf',
     },
@@ -279,43 +279,54 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Erika Viviana Sandoval Roja',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabala',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: '',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

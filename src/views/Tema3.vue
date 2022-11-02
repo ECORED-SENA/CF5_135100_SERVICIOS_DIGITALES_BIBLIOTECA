@@ -45,9 +45,9 @@
 
     p.mt-5(data-aos="fade-up") Elegir el tamaño necesario de la muestra para alcanzar los objetivos del estudio puede ser tan complejo y preciso como se desee. A continuación, se presentan los elementos clave a tener en cuenta:
 
-    .tarjeta.tarjeta--gris.p-4.mt-5(style="background-color:#FFF0DE;")
+    .tarjeta.tarjeta--gris.mt-5.pt-4.pb-4(style="background-color:#FFF0DE;")
       LineaTiempoC.color-acento-contenido(text-small)
-        .row.p-md-5(titulo="Nivel de confianza")
+        .row.p-4(titulo="Nivel de confianza")
           .col-lg-7.mb-4.mb-lg-0
             h5 Nivel de confianza
             p.mt-4 Es un parámetro definido por el investigador, con el que se determina qué tan preciso se quiere que sea el estudio. Los valores utilizados con mayor frecuencia obedecen a un factor estimado, presentado en la tabla.
@@ -69,28 +69,28 @@
                     td.text-center.p-3(style="font-weight:bold;border:0;background-color:#D1D59A;") 99%
                     td.text-center.p-3(style="font-weight:bold;border:0;background-color:#F5DECE;") 2.576
 
-        .row.p-md-5(titulo="Margen de error (e)")
+        .row.p-4(titulo="Margen de error (e)")
           .col-lg-7.mb-4.mb-lg-0
             h5 Margen de error (e)
             p.mt-4 Mide el rango de tolerancia que diferencia al resultado obtenido de la muestra en comparación con el de la población. Por ejemplo, un margen de error del 5 % implica que si el resultado de un estudio es una estatura promedio de las personas de la muestra en 1.80cm, este indicador en la población oscilará entre 1.71 y 1.89, es decir un 5% menor o un 5% mayor del valor obtenido.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema3/5.png')
-        .row.p-md-5(titulo="Población o universo (N)")
+        .row.p-4(titulo="Población o universo (N)")
           .col-lg-7.mb-4.mb-lg-0
             h5 Población o universo (N)
             p.mt-4 Se refiere al total de individuos sobre los que se espera proyectar las conclusiones. Por ejemplo, toda la población de un municipio, los estudiantes de un colegio o los trabajadores de una empresa agropecuaria.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema3/6.png')
-        .row.p-md-5(titulo="Probabilidad de éxito (p)")
+        .row.p-4(titulo="Probabilidad de éxito (p)")
           .col-lg-7.mb-4.mb-lg-0
             h5 Probabilidad de éxito (p)
             p.mt-4 Este indicador puede tomarse de otros estudios previos relacionados, si no existe ninguna noción al respecto, se deduce que la probabilidad de éxito y de fracaso son equivalentes, es decir 50 %.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema3/7.png')
-        .row.p-md-5(titulo="Probabilidad de fracaso (q)")
+        .row.p-4(titulo="Probabilidad de fracaso (q)")
           .col-lg-7.mb-4.mb-lg-0
             h5 Probabilidad de fracaso (q)
             p.mt-4 Al igual que el indicador anterior, obedece a evidencia de estudios previos, la suma de la probabilidad de éxito más la de fracaso debe ser igual al 100% de los eventos. Así pues, la probabilidad de fracaso será igual al 100 % menos la probabilidad de éxito, en otras palabras q = 1 - p 
@@ -248,7 +248,7 @@
               p.mb-0(style="color:#12263F;") Es una conversación empática en un clima de confianza mutua, comprensión y afinidad emocional entre el entrevistador y el entrevistado. Regularmente, se orienta a clientes, proveedores o posibles demandantes de un producto o servicio.
           .tarjeta.color-primario.p-5(titulo="Análisis de  <br> documentos de <br> informes previos" style="background-color:#DDD4D1;border-radius:10px")
             .row
-              p.mb-0(style="color:#12263F;") Se delega un investigador que reunirá  documentos que contengan la información por analizar, los cuales pueden ser informes cuantitativos o cualitativos, que necesitan ser estudiados, a fin de comprender la información histórica y demás características propias de la empresa. organización, etc. Así mismo se debe obtener informes sectoriales y gremiales que contextualizan las posibilidades de actividad y su comportamiento histórico.
+              p.mb-0(style="color:#12263F;") Se delega un investigador que reunirá  documentos que contengan la información por analizar, los cuales pueden ser informes cuantitativos o cualitativos, que necesitan ser estudiados, a fin de comprender la información histórica y demás características propias de la empresa, organización, etc. Así mismo se debe obtener informes sectoriales y gremiales que contextualizan las posibilidades de actividad y su comportamiento histórico.
           .tarjeta.color-primario.p-5(titulo="Debates o foros <br>  en grupos <br> pequeños" style="background-color:#DDD4D1;border-radius:10px")
             .row
               p.mb-0(style="color:#12263F;") Se adelantan sesiones grupales con un tema central a indagar, promoviendo los diferentes puntos de vista e interpretación que nutren la discusión dirigida frente a algún factor o variable, problema específico, sustentación del sector y sus posibilidades, necesidades de desarrollo, abastecimiento, etc.
@@ -282,10 +282,9 @@
       p(data-aos="fade-up" style="position:relative;font-weight:bold;") Entre las técnicas automáticas, se encuentran:
 
       TabsB.color-secundario.mt-5(style="position:relative;background-color:white;")
-        .py-4.py-md-5(titulo="Identificación óptica de caracteres" :icono="require('@/assets/curso/tema3/21.svg')")
+        .py-4.py-md-5(titulo="Identificación óptica de caracteres OCR" :icono="require('@/assets/curso/tema3/21.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
-              h4 Identificación óptica de caracteres:
               p.mt-4 A través de un escáner y #[em software], esta tecnología tiene la capacidad de capturar caracteres en documentos con zonas preestablecidas o la página completa. Esto permite capturar información documental y de libros entre otros, facilita la preservación documental, ya que al estar en digital su vida útil es mayor.
             .col-lg-4
               figure.col-3.m-auto
@@ -293,15 +292,13 @@
         .py-4.py-md-5(titulo="Reconocimiento inteligente de caracteres" :icono="require('@/assets/curso/tema3/22.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
-              h4 Reconocimiento inteligente de caracteres
-              p.mt-4 Su sigla ICR, es la traducción informática de caracteres impresos y escritos a mano alzada. Esta tecnología parte de una captura física de los datos que se ingresan en formularios impresos, se diligencian a mano alzada y través de un escáner, la imagen de los datos capturados se traduce a texto digital mediante #[em software] ICR; es similar al reconocimiento óptico de caracteres (OCR), pero es un proceso con mayor alcance ya que el ocr solo reconoce texto impresos.
+              p.mt-4 Su sigla ICR, es la traducción informática de caracteres impresos y escritos a mano alzada. Esta tecnología parte de una captura física de los datos que se ingresan en formularios impresos, se diligencian a mano alzada y través de un escáner, la imagen de los datos capturados se traduce a texto digital mediante #[em software] ICR; es similar al reconocimiento óptico de caracteres (OCR), pero es un proceso con mayor alcance ya que el OCR solo reconoce texto impresos.
             .col-lg-4
               figure.col-3.m-auto
                 img(src='@/assets/curso/tema3/26.svg')
         .py-4.py-md-5(titulo="Reconocimiento de código de barras y código QR" :icono="require('@/assets/curso/tema3/23.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
-              h4 Reconocimiento de código de barras y código QR
               p.mt-4 Dependiendo del tipo de código que se use, se pueden cargar y leer una gran cantidad de metadatos, lo que facilita el proceso tanto para la entrada como para la salida de información.
               p.mt-4 La aplicación de códigos de barras individuales o códigos QR a determinados tipos de documentos, los formularios solicitud de material bibliográfico, formularios de solicitud equipos de cómputo para trabajo, etc., aumenta la efectividad de los procesos y servicios bibliotecarios.
             .col-lg-4
@@ -310,7 +307,6 @@
         .py-4.py-md-5(titulo="Captura de voz" :icono="require('@/assets/curso/tema3/24.svg')")
           .row.p-4
             .col-lg-8.mb-4.mb-lg-0
-              h4 Captura de voz
               p.mt-4 Captura de registros por voz y formularios de voz, se ha convertido en algo importante para las empresas, como otras formas de comunicación: correo electrónico, formularios web, etc. Ahora existen aplicaciones que tienen la capacidad de capturar comandos de voz para iniciar procesos de escritura, búsqueda, almacenamiento, etc.
             .col-lg-4
               figure.col-3.m-auto

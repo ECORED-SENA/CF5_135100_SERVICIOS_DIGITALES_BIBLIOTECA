@@ -69,7 +69,7 @@
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_2_1 2.1 Tipos de Variables
+      h2#t_2_1 2.1 Tipos de variables
 
     .row
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center")
@@ -79,7 +79,7 @@
             figure
               img(src="@/assets/curso/tema2/9.png" data-aos="fade-right")
           .col(style="place-self:center")
-            p.mb-0(data-aos="fade-up") En ambos casos, desde luego, se requiere que representen características observables, con posibles variaciones, que sean expresables en números, o cantidades, o cualidades o estados.
+            p.mb-0(data-aos="fade-up") En ambos casos, desde luego, se requiere que representen características observables, con posibles variaciones, que sean expresables en números, cantidades, cualidades o estados.
       .col-lg-5(style="place-self:center")
         figure
           img(src="@/assets/curso/tema2/8.png" data-aos="fade-left")
@@ -98,22 +98,22 @@
           ul.fa-ul.mt-5
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | El color de ojos
+              | El color de ojos.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | El color del cabello
+              | El color del cabello.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | El género
+              | El género.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | El estado civil
+              | El estado civil.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | La marca de un producto
+              | La marca de un producto.
             li(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | En el caso de las bibliotecas la editorial de un libro
+              | En el caso de las bibliotecas la editorial de un libro.
         .col-lg-5(style="position:relative")
           figure.col-9.m-auto
             img(src="@/assets/curso/tema2/12.png" data-aos="fade-left")
@@ -165,28 +165,28 @@
           ul.fa-ul.mt-5
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | La edad
+              | La edad.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | Los ingresos
+              | Los ingresos.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | El peso
+              | El peso.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | La altura
+              | La altura.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | La presión
+              | La presión.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | La humedad
+              | La humedad.
             li.mb-2(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | La cantidad de hermanos
+              | La cantidad de hermanos.
             li(data-aos="fade-up")
               i.fa.fa-li.fa-check(style="color:#FD9827;")
-              | En el caso de una biblioteca, el numero de usuarios que consultaron
+              | En el caso de una biblioteca, el numero de usuarios que consultaron.
         .col-lg-5(style="position:relative")
           figure.col-9.m-auto
             img(src="@/assets/curso/tema2/14.png" data-aos="fade-left")
@@ -218,13 +218,13 @@
                 | La medición del tiempo transcurrido de servicio (un año y medio).
               li.mb-3.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | La temperatura promedio en el establecimiento (18.5 C).
+                | La temperatura promedio en el establecimiento (18.5 °C).
               li.mb-3.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | El peso de los libros (0,75 Kg).
+                | El peso de los libros (0,75 kg).
               li.text-white(data-aos="fade-up")
                 i.fa.fa-li.fa-check(style="color:#fff;")
-                | La distancia entre anaqueles o estanterías (1.7 mts).
+                | La distancia entre anaqueles o estanterías (1.7 mt).
 
       p.mt-5(data-aos="fade-up" style="position:relative;font-weight:bold;") En relación con las variables cuantitativas en la gestión de bibliotecas se debe tener presente:
 
