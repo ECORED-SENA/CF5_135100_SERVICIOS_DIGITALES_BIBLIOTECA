@@ -293,9 +293,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.text-white(data-aos="fade-up") ¡Consulta!
-              p.text-small.mb-0.mt-3(data-aos="fade-up") Consulte el Anexo_1_EjemploEstadístico y, mediante el ejemplo que allí se registra, amplíe su comprensión sobre los elementos estadísticos. 
+              p.text-small.mb-0.mt-3(data-aos="fade-up") Consulte Situación ejemplo sobre muestras estadísticas y elementos de la estadística y, mediante el ejemplo que allí se registra, amplíe su comprensión sobre los elementos estadísticos. 
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/EjemploEstadistico.pdf')" target="_blank")
                 span(style="color:#12263F;") Descargar
                 i.fas.fa-file-download(style="color:#12263F;")
 

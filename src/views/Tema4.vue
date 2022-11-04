@@ -100,9 +100,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.text-white(data-aos="fade-up") ¡Consulta!
-              p.text-small.mb-0.mt-3(data-aos="fade-up") Consulte el Anexo  Ejemplode Medidas y, mediante el ejemplo que allí se registra, amplíe su comprensión sobre las medidas de tendencia central y de dispersión.
+              p.text-small.mb-0.mt-3(data-aos="fade-up") Consulte Ejemplo de medidas y, mediante el ejemplo que allí se registra, amplíe su comprensión sobre las medidas de tendencia central y de dispersión.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/EjemploMedidas.pdf')" target="_blank")
                 span(style="color:#12263F;") Descargar
                 i.fas.fa-file-download(style="color:#12263F;")
 
