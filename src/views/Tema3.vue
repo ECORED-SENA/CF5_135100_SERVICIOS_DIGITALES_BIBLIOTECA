@@ -96,7 +96,7 @@
             p.mt-4 Al igual que el indicador anterior, obedece a evidencia de estudios previos, la suma de la probabilidad de éxito más la de fracaso debe ser igual al 100% de los eventos. Así pues, la probabilidad de fracaso será igual al 100 % menos la probabilidad de éxito, en otras palabras q = 1 - p 
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema3/8.svg')
+              img(src='@/assets/curso/tema3/8.png')
 
     Separador.mt-5
 
